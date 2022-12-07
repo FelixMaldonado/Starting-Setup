@@ -1,9 +1,8 @@
-import React , { useState }from 'react';
+import React from 'react';
 
 import './ExpensesFilter.css';
 
 const ExpensesFilter = (props) => {
-    //const [chosenYear, setChosenYear] = useState('');
  
  const dropdownHandler = (event) => {
     event.preventDefault();
